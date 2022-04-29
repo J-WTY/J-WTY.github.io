@@ -1,6 +1,6 @@
 .block {
     color: darkblue;
-    background-color: rgb(201, 173, 228);
+    background-color: rgb(214, 199, 228);
     border-style: groove;
     border-bottom: 5px;
     padding: 10px;
@@ -9,6 +9,12 @@
 h1 {
     color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+ol {
+    line-height: 175%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 2px;
 }
 
 a:hover {
