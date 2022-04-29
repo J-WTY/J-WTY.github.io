@@ -1,0 +1,22 @@
+.block {
+    color: darkblue;
+    background-color: rgb(201, 173, 228);
+    border-style: groove;
+    border-bottom: 5px;
+    padding: 10px;
+}
+
+h1 {
+    color: blue;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+a:hover {
+    color: red;
+}
+
+p {
+    line-height: 125%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 2px;
+}
