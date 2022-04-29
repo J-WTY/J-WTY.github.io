@@ -11,7 +11,7 @@
 </head>
 
 
-<body style="background-color:aqua">
+<body style="background-color:rgb(247, 247, 205)">
     <audio loop autoplay>
         <source type="audio/mp3" src="background_music.mp3">
     </audio>
@@ -22,30 +22,54 @@
                 Hi, my name is Ting Yi, Wu. I studied in <i>SongShan</i> senior high school
                 (<a href="https://www.sssh.tp.edu.tw/home">SSSH</a>).
                 And now I major in electrical engineering, in the best university in Taiwan
-                (<a href="https: //web.ee.ntu.edu.tw/">NTUEE</a>).
+                (<a href="https://web.ee.ntu.edu.tw/">NTUEE</a>).
             </p>
         </div>
         <div class="block">
             <p>
-                I love playing basketball so much and started playing it when
-                I was a junior high school student.
-                I also watched NBA sometimes, and the team I like the most is <i style="color:yellow"><strong>Golden
-                        State Warriors</strong></i>.
-                (<a href="https://www.nba.com/warriors/">GS</a>)
+                In the following hobbies are something more about me:
+                <br>
             </p>
-
+            <ol>
+                <li>I love playing basketball so much and started playing it when
+                    I was just a junior high school student.
+                    I also watched NBA sometimes, and the team I like the most is <i style="color:yellow"><strong>Golden
+                            State Warriors</strong></i>
+                    (<a href="https://www.nba.com/warriors/">GS</a>).
+                    I believe that they'll be the NBA champion this year!
+                <li>I have worked out for several years since I was in the senior high school.
+                    In the beginning, I watched some videos on Youtube to learn how to start working out, and one of my
+                    favorite channel is "<a href="https://www.youtube.com/c/FittingRoomTW">Fitting Room TW</a>". With
+                    their videos, I got to improve a lot in a short time, learning the correct training ways and
+                    concepts.
+                <li>I also like playing guitar, but I just started learning recently and I still a rookie. I watch some
+                    teaching videos on Youtube to learn how to play, and the channel that I watch the most is
+                    "<a href="https://www.youtube.com/c/%E8%80%81%E5%BE%90%E5%BD%88%E5%90%89%E4%BB%96">老徐彈吉他</a>".
+                    Although in this semester I have less time to play guitar, but it is still one of ways for me to
+                    relax and relieve stress.
+            </ol>
         </div>
         <div class="block">
             <p>
                 In addition, I'm a crazy catlover, I surf on Instagram for watching a large number of phots about cats.
                 My aunt even have four cats, they are so adorable that I often visit them and playing with them.
                 Take a look at one of them that I think the cutest one.
-                <br><img src="cutie.jpg" style="height:600px;width:500px;">
+                <br><br><img src="cutie.jpg" style="height:400px;width:400px;">
             </p>
+        </div>
+        <div class="block">
+            <p>Date/Time: <span id="datetime"></span></p>
+            <script>
+                function Update() {
+                    var dt = new Date();
+                    document.getElementById("datetime").innerHTML = document.getElementById("datetime").innerHTML = (("0" + (dt.getMonth() + 1)).slice(-2)) + "-" + (("0" + dt.getDate()).slice(-2)) + "-" + (dt.getFullYear()) + " " + (("0" + dt.getHours()).slice(-2)) + ":" + (("0" + dt.getMinutes()).slice(-2)) + ":" + (("0" + dt.getSeconds()).slice(-2));
+                }
+                setInterval("Update()", 1000);
 
+
+            </script>
         </div>
     </div>
-
 
 </body>
 
